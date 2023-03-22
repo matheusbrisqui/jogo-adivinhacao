@@ -15,9 +15,9 @@
 	}
     
 
-    var numeroPensado = Math.round(Math.random() * 10);
+    let numeroPensado = Math.round(Math.random() * 10);
 
-    var chute = parseInt(prompt("Digite seu chute!"));
+    let chute = parseInt(prompt("Digite seu chute!"));
 
     if(chute == numeroPensado){
         mostra("Você acertou!");
@@ -27,10 +27,10 @@
         mostra("Você errou, o número pensado foi: " + numeroPensado);
         if(chute > numeroPensado){
         mostra("O seu chute foi maior que o número pensado.")
-    } 
-    else{
+        } 
+        else{
         mostra("O seu chute foi menor que o número pensado.")
-    }
+        }
     }
     
     
